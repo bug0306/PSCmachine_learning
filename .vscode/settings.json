@@ -1,0 +1,35 @@
+{
+    /*
+    "code-runner.saveFileBeforeRun": true,
+    "python.autoComplete.extraPaths": ["./path-to-your-code"],
+    "python.jediEnabled": true,
+    "python.pythonPath": "D:\\D_App\\Anaconda\\python.exe",
+    // "python.languageServer": "Jedi"
+    "python.languageServer": "Pylance",
+    "python.analysis.extraPaths": [
+        "./path-to-your-code"
+    ]
+*/
+    "code-runner.saveFileBeforeRun": true,
+    "python.autoComplete.extraPaths": ["./path-to-your-code"],
+    "python.jediEnabled": true,
+    "python.pythonPath": "D:\\D_App\\Anaconda\\envs\\virdemo\\python.exe",
+    // "python.languageServer": "Jedi"
+    "python.languageServer": "Pylance",
+    "python.analysis.extraPaths": [
+        "./path-to-your-code"
+    ]
+/*
+    // 配置python语言正常输出中文的环境
+    "code-runner.executorMap":{
+        "python":"set PYTHONIOENCODING=utf8 && D:\\D_App\\Anaconda\\envs\\virdemo\\python.exe" 
+    }, 
+    "code-runner.runInTerminal": false,
+// */
+// "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe", //调用cmd命令窗
+// "terminal.integrated.shellArgs.windows": [
+//          "/k",
+//          "D:\\D_App\\Anaconda D:\\D_App\\Anaconda\\envs\\virdemo"
+// ], // 此处更改为你自己的anaconda安装位置与虚拟环境位置
+// "python.condaPath": "‪D:\\D_App\\Anaconda\\envs\\virdemo\\python.exe" // 此处更改为你自己的虚拟环境位置
+}
